@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Documentos\\programacao\\Advantage.APi\\Advantage.APi.csproj": {}
+    "D:\\Documentos\\programacao\\Advantage.APi\\Advantage.APi.csproj": {}
   },
   "projects": {
-    "d:\\Documentos\\programacao\\Advantage.APi\\Advantage.APi.csproj": {
+    "D:\\Documentos\\programacao\\Advantage.APi\\Advantage.APi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Documentos\\programacao\\Advantage.APi\\Advantage.APi.csproj",
+        "projectUniqueName": "D:\\Documentos\\programacao\\Advantage.APi\\Advantage.APi.csproj",
         "projectName": "Advantage.APi",
-        "projectPath": "d:\\Documentos\\programacao\\Advantage.APi\\Advantage.APi.csproj",
+        "projectPath": "D:\\Documentos\\programacao\\Advantage.APi\\Advantage.APi.csproj",
         "packagesPath": "C:\\Users\\joaoo\\.nuget\\packages\\",
-        "outputPath": "d:\\Documentos\\programacao\\Advantage.APi\\obj\\",
+        "outputPath": "D:\\Documentos\\programacao\\Advantage.APi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joaoo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,6 +21,7 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

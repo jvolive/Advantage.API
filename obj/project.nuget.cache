@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wd8TBiU2cKq5VsmBndaUsq7aohmRb4gOB1oPdvuHHImlAWcIA7kUZvgaS42y7GVZT0/oC4Xda27QyhH3/G5HtA==",
+  "dgSpecHash": "jtfIpyx70hkzxN0Y21MaIm2GuEHH1bI/X4sKq58m8bDVnPWp7qLcuKpe0QO7JJWd3F/D4RUYcqHjhuoMEBU3OA==",
   "success": true,
-  "projectFilePath": "d:\\Documentos\\programacao\\Advantage.APi\\Advantage.APi.csproj",
+  "projectFilePath": "D:\\Documentos\\programacao\\Advantage.APi\\Advantage.APi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joaoo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\joaoo\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
