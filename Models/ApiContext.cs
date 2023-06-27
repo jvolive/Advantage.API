@@ -1,8 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using Advantage.API.Models;
 
 
-namespace Advantage.API.Data
+namespace Advantage.API.Models
 {
     public class ApiContext : DbContext
     {

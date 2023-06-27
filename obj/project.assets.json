@@ -6226,6 +6226,8 @@
       "Microsoft.EntityFrameworkCore.Abstractions >= 7.0.8",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.8",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.8",
+      "Microsoft.Extensions.DependencyInjection >= 7.0.0",
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 7.0.0",
       "Microsoft.Extensions.SecretManager.Tools >= 2.0.2",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 7.0.4",
       "Npgsql.EntityFrameworkCore.PostgreSQL.Design >= 1.1.0",
@@ -6238,11 +6240,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Documentos\\programacao\\Advantage.APi\\Advantage.APi.csproj",
+      "projectUniqueName": "D:\\Documentos\\programacao\\Advantage.APi\\Advantage.APi.csproj",
       "projectName": "Advantage.APi",
-      "projectPath": "d:\\Documentos\\programacao\\Advantage.APi\\Advantage.APi.csproj",
+      "projectPath": "D:\\Documentos\\programacao\\Advantage.APi\\Advantage.APi.csproj",
       "packagesPath": "C:\\Users\\joaoo\\.nuget\\packages\\",
-      "outputPath": "d:\\Documentos\\programacao\\Advantage.APi\\obj\\",
+      "outputPath": "D:\\Documentos\\programacao\\Advantage.APi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\joaoo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6252,6 +6254,7 @@
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6293,6 +6296,14 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[7.0.8, )"
+          },
+          "Microsoft.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          },
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[7.0.0, )"
           },
           "Microsoft.Extensions.SecretManager.Tools": {
             "target": "Package",

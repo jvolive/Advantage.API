@@ -1,13 +1,12 @@
 using Microsoft.EntityFrameworkCore;
-using Advantage.API.Data;
+using Advantage.API.Models;
+using Advantage.APi;
+
 
 
 var builder = WebApplication.CreateBuilder(args);
 
-
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -16,6 +15,8 @@ builder.Services.AddDbContext<ApiContext>(options =>
 {
     options.UseNpgsql(builder.Configuration.GetConnectionString("AdvantageDb"));
 });
+builder.Services.AddTransient<DataSeed>();
+
 
 var app = builder.Build();
 
@@ -26,10 +27,18 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
 app.MapControllers();
+AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var seed = services.GetRequiredService<DataSeed>();
+    seed.SeedData(20, 1000);
+}
 
 app.Run();

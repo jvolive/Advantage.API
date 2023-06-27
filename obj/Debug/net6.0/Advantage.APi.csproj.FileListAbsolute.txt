@@ -49,3 +49,5 @@ D:\Documentos\programacao\Advantage.APi\obj\Debug\net6.0\refint\Advantage.APi.dl
 D:\Documentos\programacao\Advantage.APi\obj\Debug\net6.0\Advantage.APi.pdb
 D:\Documentos\programacao\Advantage.APi\obj\Debug\net6.0\Advantage.APi.genruntimeconfig.cache
 D:\Documentos\programacao\Advantage.APi\obj\Debug\net6.0\ref\Advantage.APi.dll
+D:\Documentos\programacao\Advantage.APi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\Documentos\programacao\Advantage.APi\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
