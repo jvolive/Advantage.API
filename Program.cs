@@ -2,8 +2,6 @@ using Microsoft.EntityFrameworkCore;
 using Advantage.API.Models;
 using Advantage.APi;
 
-
-
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
@@ -19,6 +17,9 @@ builder.Services.AddTransient<DataSeed>();
 
 
 var app = builder.Build();
+
+app.MapControllerRoute(name: "default",
+    pattern: "api/{controller}/{action}/{id?}");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

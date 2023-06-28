@@ -6240,11 +6240,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documentos\\programacao\\Advantage.APi\\Advantage.APi.csproj",
+      "projectUniqueName": "D:\\Documentos\\Prog_Clientes\\Advantage.API\\Advantage.APi.csproj",
       "projectName": "Advantage.APi",
-      "projectPath": "D:\\Documentos\\programacao\\Advantage.APi\\Advantage.APi.csproj",
+      "projectPath": "D:\\Documentos\\Prog_Clientes\\Advantage.API\\Advantage.APi.csproj",
       "packagesPath": "C:\\Users\\joaoo\\.nuget\\packages\\",
-      "outputPath": "D:\\Documentos\\programacao\\Advantage.APi\\obj\\",
+      "outputPath": "D:\\Documentos\\Prog_Clientes\\Advantage.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\joaoo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6341,7 +6341,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.410\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
