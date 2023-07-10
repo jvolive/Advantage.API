@@ -23,11 +23,21 @@ namespace Advantage.API.Controllers
         [HttpGet("{id}", Name = "GetCustomer")]
         public IActionResult Get(int id)
         {
-            var customer = _ctx.Customer.Find(id);
+            var customer = _ctx.Customers.Find(id);
             return Ok(customer);
         }
         // 12:33 ep 15
         [HttpPost]
-        public IActionResult Post([FromBody]) { }
+        public IActionResult Post([FromBody] Customer customer)
+        {
+            if (customer == null)
+            {
+                return BadRequest();
+            }
+            _ctx.Customers.Add(customer);
+            _ctx.SaveChanges();
+
+            return CreatedAtRoute("GetCustomer", new { id = customer.Id }, customer);
+        }
     }
 }
