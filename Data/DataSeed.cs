@@ -1,7 +1,6 @@
-using Advantage.API;
 using Advantage.API.Models;
 
-namespace Advantage.APi
+namespace Advantage.API
 
 {
     public class DataSeed

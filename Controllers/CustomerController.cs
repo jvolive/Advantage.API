@@ -1,5 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using Advantage.API;
 using Advantage.API.Models;
 
 namespace Advantage.API.Controllers

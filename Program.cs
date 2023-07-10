@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Advantage.API.Models;
-using Advantage.APi;
+using Advantage.API;
 
 var builder = WebApplication.CreateBuilder(args);
 
