@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r2hsV8/QxYt6/GVF5rnhSOo59tQ/q7xNW/i3mc3X9QbxMuqjEd21g1RCyAsngHp9VHPTA6SGKeyJ5L5yBLdHYg==",
+  "dgSpecHash": "jMrYaeUPRuIhhRrZXn5/unSTJO9uA9TKwI2Z9G3fYfpChEWcUSa4Q9j1iRcAMAPkj48MLXT+B7xW+jBnHwvtnA==",
   "success": true,
-  "projectFilePath": "D:\\Documentos\\Prog_Clientes\\Advantage.API\\Advantage.APi.csproj",
+  "projectFilePath": "D:\\Documentos\\Prog\\Advantage.API\\Advantage.APi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joaoo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\joaoo\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

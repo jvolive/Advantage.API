@@ -6240,11 +6240,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documentos\\Prog_Clientes\\Advantage.API\\Advantage.APi.csproj",
+      "projectUniqueName": "D:\\Documentos\\Prog\\Advantage.API\\Advantage.APi.csproj",
       "projectName": "Advantage.APi",
-      "projectPath": "D:\\Documentos\\Prog_Clientes\\Advantage.API\\Advantage.APi.csproj",
+      "projectPath": "D:\\Documentos\\Prog\\Advantage.API\\Advantage.APi.csproj",
       "packagesPath": "C:\\Users\\joaoo\\.nuget\\packages\\",
-      "outputPath": "D:\\Documentos\\Prog_Clientes\\Advantage.API\\obj\\",
+      "outputPath": "D:\\Documentos\\Prog\\Advantage.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\joaoo\\AppData\\Roaming\\NuGet\\NuGet.Config",
